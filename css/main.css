@@ -101,6 +101,9 @@ body {
 .text-block__p {
 	line-height: 1.75;
 }
+.text-block__h:hover{
+color: yellowgreen;
+}
 .name {
   text-align: center;
   font-size: 18px;
