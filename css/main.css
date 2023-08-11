@@ -243,4 +243,19 @@ color: yellowgreen;
 .title-2:hover{
   color: yellowgreen;
 }
+/* Social */
+
+.social {
+  column-gap: 40px;
+  justify-content: space-between;
+}
+
+
+.social__item {
+  width: 28px;
+}
+.social__item:hover{
+  opacity: 0.7;
+}
+
 
