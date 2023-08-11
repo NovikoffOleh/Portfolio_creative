@@ -67,6 +67,9 @@ body {
 	align-items: center;
 	flex-direction: column;
 }
+.my_items:hover{
+ opacity: 0.7;
+}
 .gallery__item {
 	max-width: calc(var(--index) * 21);
 	margin-bottom: var(--gallery-gap);
