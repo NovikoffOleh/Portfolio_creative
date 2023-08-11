@@ -9,6 +9,10 @@
 	--color-text: #cdc6c3;
 	--gallery-gap: calc(var(--index) * 7.5)
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 @font-face {
 	font-family: raleway-c;
 	src: url(../fonts/raleway-regular.woff2);
@@ -25,7 +29,8 @@ h1, h2, h3, h4, h5, h6 {
 	will-change: transform;
 }
 body {
-	background-image: url(../img/bg.jpg);
+	/*background-image: url(../img/bg.jpg);*/
+  background-color: #080a07;
 	background-size: 50px;
 	color: #fafafa;
 	font-family: raleway-c;
@@ -86,4 +91,13 @@ body {
 }
 .text-block__p {
 	line-height: 1.75;
+}
+.name {
+  text-align: center;
+  font-size: 14px;
+  color:white;
+}
+.footer-copyright{
+  margin-top: 50px;
+
 }
