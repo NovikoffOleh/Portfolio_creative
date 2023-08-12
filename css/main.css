@@ -261,9 +261,15 @@ color: yellowgreen;
 
 
 /* Media Queries */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
 	.container {
 		padding: 0 10px;
+	}
+  .gallery {
+		padding: calc(var(--index) * 6) 0;
+	}
+  .gallery__item {
+		max-width: calc(var(--index) * 18);
 	}
 }
 
@@ -276,6 +282,9 @@ color: yellowgreen;
 	}
 	.gallery {
 		padding: calc(var(--index) * 6) 0;
+	}
+  .gallery__item {
+		max-width: calc(var(--index) * 12);
 	}
 }
 
