@@ -305,7 +305,8 @@ color: yellowgreen;
     line-height: 1.4rem;
   }
   .hero {
-    display: none;
+    width: 220px;
+    /*display: none;*/
   }
   
   .main-title{
