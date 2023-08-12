@@ -301,19 +301,19 @@ color: yellowgreen;
 	.gallery__item {
 		max-width: calc(var(--index) * 12);
 	}
-  .hero {
+  /*.hero {
     width: 255px;
 	   top: 7vh;
   }
-  .main-title{
+  /*.main-title{
     font-size: calc(var(--index) * 4);
   }
   .text-block__h{
     font-size: 22px;
     line-height: 1.4rem;
   }
-  .main-header {
-    height: 65vh;
-}
+  /*.main-header {
+    height: 50vh;
+}*/
 }
 
