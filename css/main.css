@@ -301,5 +301,15 @@ color: yellowgreen;
 	.gallery__item {
 		max-width: calc(var(--index) * 12);
 	}
+  /*.hero {
+    width: calc(var(--index) * 8);
+  }*/
+  .main-title{
+    font-size: calc(var(--index) * 4);
+  }
+  .text-block__h{
+    font-size: 22px;
+    line-height: 1.4rem;
+  }
 }
 
