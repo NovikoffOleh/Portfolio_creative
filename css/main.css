@@ -301,9 +301,10 @@ color: yellowgreen;
 	.gallery__item {
 		max-width: calc(var(--index) * 12);
 	}
-  /*.hero {
-    width: calc(var(--index) * 8);
-  }*/
+  .hero {
+    width: 255px;
+	   top: 7vh;
+  }
   .main-title{
     font-size: calc(var(--index) * 4);
   }
@@ -311,5 +312,8 @@ color: yellowgreen;
     font-size: 22px;
     line-height: 1.4rem;
   }
+  .main-header {
+    height: 65vh;
+}
 }
 
