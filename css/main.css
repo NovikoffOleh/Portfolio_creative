@@ -298,7 +298,7 @@ color: yellowgreen;
 		padding: calc(var(--index) * 4) 0;
 	}
 	.gallery__item {
-		max-width: calc(var(--index) * 12);
+		max-width: calc(var(--index) * 13);
 	}
   .text-block__h{
     font-size: 22px;
